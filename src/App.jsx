@@ -11,6 +11,7 @@ function App() {
     { playerName: "NachoBerry", accountType: "psn" },
     { playerName: "Subrosa8894", accountType: "psn" },
     { playerName: "puppy-kicker", accountType: "epic" },
+
   ];
 
   const [playerData, setPlayerData] = useState([]);
