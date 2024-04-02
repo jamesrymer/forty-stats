@@ -18,7 +18,7 @@ const PlayerBar = (props) => {
                 (   <div className='playerBar closed'>
                         <div className='top'>
                             <div className='left'> 
-                                <img className='battleStar' src="./src/assets/8B99381E-E8E7-4C9A-BCAB-615EF2423F21.png" alt="" />
+                                <img className='battleStar' src="./src/assets/battle-star.png" alt="" />
                                 <span className='level'> {props.playerData.battlePass.level}</span>
                                 <h3 className='playerName'>{props.playerData.account.name}</h3>
                             </div>
@@ -34,7 +34,7 @@ const PlayerBar = (props) => {
                     <div className='playerBar closed'>
                         <div className='top'>
                             <div className='left'> 
-                                <img className='battleStar' src="./src/assets/8B99381E-E8E7-4C9A-BCAB-615EF2423F21.png" alt="" />
+                                <img className='battleStar' src="./src/assets/battle-star.png" alt="" />
                                 <span className='level'> {props.playerData.battlePass.level}</span>
                                 <h3 className='playerName'>{props.playerData.account.name}</h3>
                             </div>

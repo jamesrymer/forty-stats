@@ -20,7 +20,7 @@ function App() {
     const fetchData = async () => {
       const data = [];
       for (const player of players) {
-        const response = await fetch(`http://localhost:3000/allPlayerStats?playerName=${player.playerName}&accountType=${player.accountType}&timeWindow=season`);
+        const response = await fetch(`https://sock-check-forty-gang-0a6d635aa1b8.herokuapp.com/allPlayerStats?playerName=${player.playerName}&accountType=${player.accountType}&timeWindow=season`);
         const playerData = await response.json();
         data.push(playerData.data);
       }
